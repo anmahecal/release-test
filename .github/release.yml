@@ -1,0 +1,11 @@
+changelog:
+  categories:
+  - title: High Impact
+    labels:
+    - high-impact
+  - title: Low Impact
+    labels:
+    - low-impact
+  - title: Other changes
+    labels:
+    - "*"
