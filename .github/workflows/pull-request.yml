@@ -6,6 +6,8 @@ on:
 jobs:
   pull-request:
     runs-on: ubuntu-latest
+    permissions:
+        pull_request: write
     steps:
     - uses: actions/checkout@v2
     - name: pull-request
